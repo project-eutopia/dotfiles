@@ -1,45 +1,45 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
-	url = http://github.com/tpope/vim-fugitive.git
+	url = git@github.com:tpope/vim-fugitive.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
-	url = http://github.com/project-eutopia/vim-colors-solarized.git
+	url = git@github.com:project-eutopia/vim-colors-solarized.git
 [submodule "bundle/ag"]
 	path = bundle/ag
-	url = https://github.com/ggreer/the_silver_searcher
+	url = git@github.com:rking/ag.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
+	url = git@github.com:kien/ctrlp.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+	url = git@github.com:scrooloose/nerdtree.git
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
-	url = https://github.com/tpope/vim-abolish.git
+	url = git@github.com:tpope/vim-abolish.git
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
-	url = https://github.com/tpope/vim-bundler.git
+	url = git@github.com:tpope/vim-bundler.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
+	url = git@github.com:kchmck/vim-coffee-script.git
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
+	url = git@github.com:airblade/vim-gitgutter.git
 [submodule "bundle/vim-mathematica"]
 	path = bundle/vim-mathematica
-	url = https://github.com/rsmenon/vim-mathematica
+	url = git@github.com:rsmenon/vim-mathematica.git
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
-	url = https://github.com/tpope/vim-rails
+	url = git@github.com:tpope/vim-rails.git
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
-	url = https://github.com/vim-ruby/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
 [submodule "bundle/vim-rake"]
 	path = bundle/vim-rake
-	url = https://github.com/tpope/vim-rake
+	url = git@github.com:tpope/vim-rake.git
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
-	url = https://github.com/tpope/vim-sensible
+	url = git@github.com:tpope/vim-sensible.git
 [submodule "bundle/vim-rubocop"]
 	path = bundle/vim-rubocop
-	url = https://github.com/ngmy/vim-rubocop
+	url = git@github.com:ngmy/vim-rubocop.git
