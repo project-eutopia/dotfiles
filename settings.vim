@@ -27,6 +27,7 @@ autocmd BufWritePre *.bib :call TrimWhiteSpace()
 
 " Configure CtrlP to include hidden files in search
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_working_path_mode = ''
 
 " No ag.vim message
 let g:ag_mapping_message = 0
