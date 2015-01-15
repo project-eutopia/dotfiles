@@ -1,0 +1,10 @@
+"hg7127
+
+loadplugins '\.(js|penta)$'
+group user
+set guioptions=bCrsmT
+
+" vim: set ft=pentadactyl:
+
+nmap <C-h> gT
+nmap <C-l> gt
