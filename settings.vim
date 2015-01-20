@@ -21,9 +21,10 @@ autocmd BufWinLeave * call clearmatches()
 function! TrimWhiteSpace()
     %s/\s\+$//e
 endfunction
-autocmd BufWritePre *.rb  :call TrimWhiteSpace()
-autocmd BufWritePre *.tex :call TrimWhiteSpace()
-autocmd BufWritePre *.bib :call TrimWhiteSpace()
+autocmd BufWritePre *.rb   :call TrimWhiteSpace()
+autocmd BufWritePre *.rake :call TrimWhiteSpace()
+autocmd BufWritePre *.tex  :call TrimWhiteSpace()
+autocmd BufWritePre *.bib  :call TrimWhiteSpace()
 
 " Highlight current line
 " Solution by Ingo Karkat:
