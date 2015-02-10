@@ -94,3 +94,7 @@ alias br="git branch"
 
 # Allow quick jumping into folders
 export CDPATH="$HOME/degica"
+
+# Swap left ctrl and caps lock
+# Also add this option to /etc/default/keyboard
+setxkbmap -option ctrl:nocaps
