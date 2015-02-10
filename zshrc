@@ -97,4 +97,4 @@ export CDPATH="$HOME/degica"
 
 # Swap left ctrl and caps lock
 # Also add this option to /etc/default/keyboard
-setxkbmap -option ctrl:nocaps
+setxkbmap -option ctrl:swapcaps
