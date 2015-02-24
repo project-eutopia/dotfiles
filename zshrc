@@ -63,6 +63,7 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -86,11 +87,15 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 alias v="vim"
 alias q="exit"
 
+alias g="git"
 alias bi="bundle install"
 alias be="bundle exec"
 alias co="git checkout"
 alias ci="git commit"
 alias br="git branch"
+
+# This is a very common pattern
+alias gmaster="git checkout master; git fetch upstream; git pull upstream master; git push origin master"
 
 # Allow quick jumping into folders
 export CDPATH="$HOME/degica"
@@ -98,3 +103,23 @@ export CDPATH="$HOME/degica"
 # Swap left ctrl and caps lock
 # Also add this option to /etc/default/keyboard
 setxkbmap -option ctrl:swapcaps
+
+# vim-like control
+bindkey -v
+
+bindkey '^P' up-history
+bindkey '^N' down-history
+bindkey '^?' backward-delete-char
+bindkey '^h' backward-delete-char
+bindkey '^w' backward-kill-word
+bindkey '^r' history-incremental-search-backward
+
+function zle-line-init zle-keymap-select {
+    RPS1="${${KEYMAP/vicmd/[ NORMAL ]}/(main|viins)/}"
+    RPS2=$RPS1
+    zle reset-prompt
+}
+zle -N zle-line-init
+zle -N zle-keymap-select
+
+export KEYTIMEOUT=10
