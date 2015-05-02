@@ -143,8 +143,8 @@ so ~/.vim/settings.vim
 " (ref: github.com/scrooloose/nerdtree)
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-" Highlight the 80 character limit
-set colorcolumn=80
+" Highlight the 120 character limit
+set colorcolumn=120
 hi ColorColumn ctermfg=NONE ctermbg=17 cterm=NONE guifg=NONE guibg=#112c34 gui=NONE
 
 let g:vimrubocop_config = '/home/chris/.vim/rubocop_style_guide_ruby.yml'
