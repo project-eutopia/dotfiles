@@ -5,3 +5,5 @@
       \ :! pdflatex '%:t'<CR>
       \ :! pdflatex '%:t'<CR>
       \ <CR>
+
+so ~/.vim/ftplugin/tex_autoclose.vim
