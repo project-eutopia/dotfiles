@@ -46,3 +46,9 @@
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
 	url = git://github.com/slim-template/vim-slim.git
+[submodule "bundle/vim-autoclose"]
+	path = bundle/vim-autoclose
+	url = git@github.com:Townk/vim-autoclose
+[submodule "bundle/closetag.vim"]
+	path = bundle/closetag.vim
+	url = git@github.com:vim-scripts/closetag.vim
