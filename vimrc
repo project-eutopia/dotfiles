@@ -150,3 +150,7 @@ hi ColorColumn ctermfg=NONE ctermbg=17 cterm=NONE guifg=NONE guibg=#112c34 gui=N
 let g:vimrubocop_config = '/home/chris/.vim/rubocop_style_guide_ruby.yml'
 
 set diffopt+=vertical
+
+" Open as a zip file appropriate files
+" See: http://stackoverflow.com/questions/22387836/open-a-docx-file-as-a-zip-in-vim
+au BufReadCmd *.jar,*.xpi,*.docx,*.odp,*.ods,*.odt call zip#Browse(expand("<amatch>"))
