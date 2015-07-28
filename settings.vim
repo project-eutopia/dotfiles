@@ -48,3 +48,11 @@ let g:ctrlp_working_path_mode = ''
 
 " No ag.vim message
 let g:ag_mapping_message = 0
+
+" vim-pencil
+augroup pencil
+  autocmd!
+  autocmd FileType markdown,mkd call pencil#init()
+  autocmd FileType text         call pencil#init()
+augroup END
+
