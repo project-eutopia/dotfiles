@@ -52,3 +52,7 @@
 [submodule "bundle/vim-instant-markdown"]
 	path = bundle/vim-instant-markdown
 	url = git@github.com:suan/vim-instant-markdown.git
+[submodule "bundle/vim-pencil"]
+	path = bundle/vim-pencil
+	url = git@github.com:reedes/vim-pencil.git
+
