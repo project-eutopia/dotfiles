@@ -50,6 +50,7 @@ let g:ctrlp_working_path_mode = ''
 let g:ag_mapping_message = 0
 
 " vim-pencil
+let g:pencil#wrapModeDefault = 'soft'
 augroup pencil
   autocmd!
   autocmd FileType markdown,mkd call pencil#init()
