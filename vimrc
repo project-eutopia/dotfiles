@@ -154,3 +154,9 @@ set diffopt+=vertical
 " Open as a zip file appropriate files
 " See: http://stackoverflow.com/questions/22387836/open-a-docx-file-as-a-zip-in-vim
 au BufReadCmd *.jar,*.xpi,*.docx,*.odp,*.ods,*.odt call zip#Browse(expand("<amatch>"))
+
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
