@@ -1,0 +1,76 @@
+fugitive
+========
+
+:Gstatus brings up git status window
+  <Ctrl-n> next file
+  <Ctrl-p> previous file
+  - add/reset file changes
+  <Enter> open file
+  D open git diff
+  cc commit
+  ca commit --amend
+  U revert any changes (WARNING - irreversible)
+
+:Gread checkouts the original file
+:Gwrite saves and writes to indexed version
+:Gbrowse opens file on GitHub
+
+vim-surround
+============
+
+Surroundings:
+  '"()[]{}t<p>
+  ( adds buffer space: ( hello )
+  ) has no space:       (hello)
+  tags (use t when ) can have options too, like
+  <p id="me"> will automatically close with </p>
+
+
+Text              Command    New Text
+---------------   -------    -----------
+  *deleting*
+'Hello W|orld'    ds'        Hello World
+(12|3+4*56)/2     ds(        123+4*56/2
+<div>fo|o</div>   dst        foo
+
+  *changing*
+"Hello |world!"   cs"'       'Hello world!'
+"Hello |world!"   cs"<q>     <q>Hello world!</q>
+(123+4|56)/2      cs)]       [123+456]/2
+(123+4|56)/2      cs)[       [ 123+456 ]/2
+<div>foo|</div>   cst<p>     <p>foo</p>
+fo|o!             csw'       'foo'!
+fo|o!             csW'       'foo!'
+
+  *adding*
+Hello w|orld!     ysiw)        Hello (world)!
+Hello w|orld!     csw)         Hello (world)!
+fo|o              ysiwt<html>  <html>foo</html>
+foo quu|x baz     yss"         "foo quux baz"
+foo quu|x baz     ySS"         "
+                                   foo quux baz
+                               "
+
+(| is the position of cursor in these examples)
+
+Normal mode
+-----------
+ds  - delete a surrounding
+cs  - change a surrounding
+ys(+motion, e.g. iw, ip)  - add a surrounding
+yS(+motion, e.g. iw, ip)  - add a surrounding and place the surrounded text on a new line + indent it
+yss - add a surrounding to the whole line
+ySs - add a surrounding to the whole line, place it on a new line + indent it
+ySS - same as ySs
+
+Visual mode
+-----------
+s   - in visual mode, add a surrounding
+S   - in visual mode, add a surrounding but place text on new line + indent it
+
+Insert mode
+-----------
+<CTRL-s> - in insert mode, add a surrounding
+<CTRL-s><CTRL-s> - in insert mode, add a new line + surrounding + indent
+<CTRL-g>s - same as <CTRL-s>
+<CTRL-g>S - same as <CTRL-s><CTRL-s>
