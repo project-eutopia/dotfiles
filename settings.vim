@@ -57,3 +57,5 @@ let g:ag_mapping_message = 0
 "  autocmd FileType text         call pencil#init()
 "augroup END
 
+" vim-closetag settings
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml"
