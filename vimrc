@@ -160,3 +160,6 @@ vmap <Enter> <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
+
+" vim-closetag settings
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml"

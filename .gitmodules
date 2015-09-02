@@ -61,3 +61,6 @@
 [submodule "bundle/vim-easy-align"]
 	path = bundle/vim-easy-align
 	url = git@github.com:junegunn/vim-easy-align
+[submodule "bundle/vim-closetag"]
+	path = bundle/vim-closetag
+	url = git@github.com:alvan/vim-closetag
