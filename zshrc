@@ -91,7 +91,7 @@ alias g="git"
 alias bi="bundle install"
 alias be="bundle exec"
 alias co="git checkout"
-alias ci="git commit"
+alias cm="git commit"
 alias br="git branch"
 
 # This is a very common pattern
