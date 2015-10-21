@@ -98,7 +98,7 @@ alias br="git branch"
 alias gmaster="git checkout master; git fetch upstream; git pull upstream master; git push origin master"
 
 # Allow quick jumping into folders
-export CDPATH="$HOME/degica"
+export CDPATH="$CDPATH:$HOME/degica:$HOME/ruby"
 
 # Swap left ctrl and caps lock
 # Also add this option to /etc/default/keyboard
