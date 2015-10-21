@@ -6,8 +6,5 @@ set guioptions=bCrsmT
 
 " vim: set ft=pentadactyl:
 
-vnoremap ;; <Esc>
-inoremap ;; <Esc>
-
 nmap <C-h> gT
 nmap <C-l> gt
