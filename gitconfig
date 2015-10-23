@@ -1,0 +1,15 @@
+[user]
+  name = (none)
+  email = (none)
+[core]
+  editor = vi
+  excludesfile = ~/.gitignore_global
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[alias]
+  br = branch
+  cm = commit
+  co = checkout
+  st = status
