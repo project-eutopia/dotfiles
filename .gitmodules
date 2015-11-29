@@ -64,3 +64,9 @@
 [submodule "bundle/vim-closetag"]
 	path = bundle/vim-closetag
 	url = git@github.com:alvan/vim-closetag
+[submodule "bundle/vim-textobj-user"]
+	path = bundle/vim-textobj-user
+	url = git@github.com:kana/vim-textobj-user
+[submodule "bundle/vim-textobj-rubyblock"]
+	path = bundle/vim-textobj-rubyblock
+	url = git@github.com:nelstrom/vim-textobj-rubyblock
