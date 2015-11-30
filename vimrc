@@ -123,6 +123,7 @@ endif
 :set statusline=%<%f%h%m%r%=%b\ 0x%B\ \ %l,%c%V\ %P
 
 execute pathogen#infect()
+Helptags
 
 " Solarized colorscheme settings
 syntax enable
