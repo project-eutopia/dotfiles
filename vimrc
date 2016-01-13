@@ -48,6 +48,9 @@ map <C-l> <C-W>l
 vnoremap ;; <Esc>
 inoremap ;; <Esc>
 
+" Return will insert newline at cursor
+nnoremap <CR> i<CR><Esc>==^
+
 set nobackup		" do not keep a backup file
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
