@@ -126,3 +126,16 @@ zle -N zle-line-init
 zle -N zle-keymap-select
 
 export KEYTIMEOUT=10
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+
+# If Cuda is install, setup environment variables
+if [[ -d /usr/local/cuda-7.5 ]]; then
+  export PATH="/home/chris/anaconda2/bin:$PATH"
+
+  export CUDA_HOME=/usr/local/cuda-7.5
+  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${CUDA_HOME}/lib64
+
+  PATH=${CUDA_HOME}/bin:${PATH}
+  export PATH
+fi
