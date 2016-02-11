@@ -164,11 +164,3 @@ vmap <Enter> <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
-
-" https://github.com/bling/vim-airline/wiki/FAQ
-" https://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin
-let g:airline_powerline_fonts = 1
-if !exists('g:airline_symbols')
-  let g:airline_symbols = {}
-endif
-let g:airline_symbols.space = "\ua0"
