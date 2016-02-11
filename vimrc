@@ -49,7 +49,7 @@ vnoremap ;; <Esc>
 inoremap ;; <Esc>
 
 " Return will insert newline at cursor
-nnoremap <CR> i<CR><Esc>==^
+nnoremap <expr> <CR> (&modifiable ? "i<CR><Esc>==^" : "<CR>")
 
 set nobackup		" do not keep a backup file
 set history=50		" keep 50 lines of command line history
