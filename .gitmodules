@@ -85,3 +85,6 @@
 [submodule "vim/bundle/vim-textobj-line"]
 	path = vim/bundle/vim-textobj-line
 	url = git@github.com:kana/vim-textobj-line
+[submodule "vim/bundle/vim-textobj-indent"]
+	path = vim/bundle/vim-textobj-indent
+	url = git@github.com:kana/vim-textobj-indent
