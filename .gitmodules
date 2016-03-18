@@ -82,3 +82,6 @@
 [submodule "vim/bundle/vim-exchange"]
 	path = vim/bundle/vim-exchange
 	url = git@github.com:tommcdo/vim-exchange
+[submodule "vim/bundle/vim-textobj-line"]
+	path = vim/bundle/vim-textobj-line
+	url = git@github.com:kana/vim-textobj-line
