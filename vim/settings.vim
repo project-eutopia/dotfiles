@@ -21,6 +21,11 @@ autocmd BufWinLeave * call clearmatches()
 function! TrimWhiteSpace()
     %s/\s\+$//e
 endfunction
+autocmd BufWritePre *.c    :call TrimWhiteSpace()
+autocmd BufWritePre *.cu   :call TrimWhiteSpace()
+autocmd BufWritePre *.cpp  :call TrimWhiteSpace()
+autocmd BufWritePre *.h    :call TrimWhiteSpace()
+autocmd BufWritePre *.hpp  :call TrimWhiteSpace()
 autocmd BufWritePre *.rb   :call TrimWhiteSpace()
 autocmd BufWritePre *.rake :call TrimWhiteSpace()
 autocmd BufWritePre *.tex  :call TrimWhiteSpace()
