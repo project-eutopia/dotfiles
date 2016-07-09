@@ -25,9 +25,6 @@
 [submodule "bundle/vim-gitgutter"]
 	path = vim/bundle/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
-[submodule "bundle/vim-mathematica"]
-	path = vim/bundle/vim-mathematica
-	url = git@github.com:rsmenon/vim-mathematica.git
 [submodule "bundle/vim-rails"]
 	path = vim/bundle/vim-rails
 	url = git@github.com:tpope/vim-rails.git
