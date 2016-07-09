@@ -43,9 +43,6 @@
 [submodule "bundle/vim-rubocop"]
 	path = vim/bundle/vim-rubocop
 	url = git@github.com:ngmy/vim-rubocop.git
-[submodule "bundle/vim-slim"]
-	path = vim/bundle/vim-slim
-	url = git://github.com/slim-template/vim-slim.git
 [submodule "bundle/vim-autoclose"]
 	path = vim/bundle/vim-autoclose
 	url = git@github.com:Townk/vim-autoclose
