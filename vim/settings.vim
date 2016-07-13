@@ -30,6 +30,7 @@ autocmd BufWritePre *.rb   :call TrimWhiteSpace()
 autocmd BufWritePre *.rake :call TrimWhiteSpace()
 autocmd BufWritePre *.tex  :call TrimWhiteSpace()
 autocmd BufWritePre *.bib  :call TrimWhiteSpace()
+autocmd BufWritePre *.php  :call TrimWhiteSpace()
 
 " Highlight current line
 " Solution by Ingo Karkat:
