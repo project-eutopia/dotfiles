@@ -48,7 +48,7 @@
 	url = git@github.com:yaymukund/vim-rabl.git
 [submodule "bundle/vim-surround"]
 	path = vim/bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
+	url = git@github.com:tpope/vim-surround.git
 [submodule "bundle/vim-repeat"]
 	path = vim/bundle/vim-repeat
 	url = git@github.com:tpope/vim-repeat.git
