@@ -82,3 +82,6 @@
 [submodule "vim/bundle/vim-textobj-indent"]
 	path = vim/bundle/vim-textobj-indent
 	url = git@github.com:kana/vim-textobj-indent
+[submodule "vim/bundle/colorizer"]
+	path = vim/bundle/colorizer
+	url = git@github.com:lilydjwg/colorizer.git
