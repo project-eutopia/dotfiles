@@ -35,8 +35,9 @@ autocmd BufWritePre *.php  :call TrimWhiteSpace()
 " Highlight current line
 " Solution by Ingo Karkat:
 "   http://stackoverflow.com/questions/12017331/how-can-i-make-vim-highlight-the-current-line-on-only-the-active-buffer
-hi CursorLine ctermbg=233 cterm=bold
+hi CursorLine ctermbg=234
 hi CursorLineNR cterm=bold ctermbg=234 ctermfg=60
+setlocal cursorcolumn
 
 augroup CLNRSet
   autocmd ColorScheme * hi CursorLineNR
@@ -45,7 +46,9 @@ augroup END
 augroup CursorLine
   au!
   au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+  au VimEnter,WinEnter,BufWinEnter * setlocal cursorcolumn
   au WinLeave * setlocal nocursorline
+  au WinLeave * setlocal nocursorcolumn
 augroup END
 
 " Configure CtrlP to include hidden files in search
