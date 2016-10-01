@@ -126,7 +126,7 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
-:set statusline=%<%f%h%m%r%=%b\ 0x%B\ \ %l,%c%V\ %P
+:set statusline=%<%f%h%m%r%=0x%B\ %l,%c%V\ %P
 
 execute pathogen#infect()
 Helptags
