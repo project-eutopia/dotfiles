@@ -69,7 +69,3 @@ let g:ag_mapping_message = 0
 
 " vim-closetag settings
 let g:closetag_filenames = "*.html,*.xhtml,*.phtml"
-
-" vim-commentary hotkey is 'gc', change to 'cm'
-nmap cm <Plug>Commentary
-vmap cm <Plug>Commentary
