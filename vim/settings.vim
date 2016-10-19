@@ -35,7 +35,6 @@ autocmd BufWritePre *.php  :call TrimWhiteSpace()
 " Highlight current line
 " Solution by Ingo Karkat:
 "   http://stackoverflow.com/questions/12017331/how-can-i-make-vim-highlight-the-current-line-on-only-the-active-buffer
-hi CursorLine
 hi CursorLineNR cterm=bold ctermbg=234 ctermfg=60
 setlocal cursorcolumn
 
