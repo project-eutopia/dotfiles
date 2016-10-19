@@ -59,13 +59,5 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 " No ag.vim message
 let g:ag_mapping_message = 0
 
-" vim-pencil
-"let g:pencil#wrapModeDefault = 'soft'
-"augroup pencil
-"  autocmd!
-"  autocmd FileType markdown,mkd call pencil#init()
-"  autocmd FileType text         call pencil#init()
-"augroup END
-
 " vim-closetag settings
 let g:closetag_filenames = "*.html,*.xhtml,*.phtml"
