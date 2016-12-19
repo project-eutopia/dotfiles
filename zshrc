@@ -139,3 +139,6 @@ if [[ -d /usr/local/cuda-7.5 ]]; then
   PATH=${CUDA_HOME}/bin:${PATH}
   export PATH
 fi
+
+# added by travis gem
+[ -f /home/chris/.travis/travis.sh ] && source /home/chris/.travis/travis.sh
