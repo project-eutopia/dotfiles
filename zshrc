@@ -98,7 +98,7 @@ alias cm="git commit"
 alias br="git branch"
 
 # This is a very common pattern
-alias gmaster="git checkout master; git fetch upstream; git pull upstream master; git push origin master"
+alias gmaster="git checkout master && git fetch upstream && git pull upstream master && git push origin master"
 
 # Allow quick jumping into folders
 export CDPATH="$CDPATH:$HOME/degica:$HOME/ruby"
