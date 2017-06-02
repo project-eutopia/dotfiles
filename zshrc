@@ -142,3 +142,6 @@ fi
 
 # added by travis gem
 [ -f /home/chris/.travis/travis.sh ] && source /home/chris/.travis/travis.sh
+
+# Use ISO8601 timestamps
+export TIME_STYLE=long-iso
