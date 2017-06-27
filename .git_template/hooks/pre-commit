@@ -8,6 +8,10 @@ if [[ "$FILE" =~ ^.+(_spec.rb)$ ]]; then
       echo -e "\e[1;31m\tAborting commit due to focus: true" >&2
       exit 1
     fi
+    if [[ $(echo "$content" | ag "binding.pry") ]]; then
+      echo -e "\e[1;31m\tAborting commit due to 'binding.pry'" >&2
+      exit 1
+    fi
   fi
 fi
 done
