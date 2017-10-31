@@ -43,6 +43,9 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-l> <C-W>l
 
+" To move in tabs easier (think 'go reverse')
+nnoremap gr gT
+
 " Remap the next and previous chunk hotkeys for GitGutter
 " nmap ]h <Plug>GitGutterNextHunk
 " nmap [h <Plug>GitGutterPrevHunk
